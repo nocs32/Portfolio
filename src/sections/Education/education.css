@@ -1,0 +1,66 @@
+.education {
+ margin-bottom: 70px;
+}
+.education__title {
+ font-weight: 700;
+ font-size: 32px;
+ line-height: 123.6%;
+ text-align: center;
+ margin-bottom: 25px;
+}
+.education__subtitle {
+ font-size: 15px;
+ line-height: 24px;
+ color: #767676;
+ max-width: 428px;
+ margin: 0 auto;
+ margin-bottom: 50px;
+}
+.education__list {
+ padding: 20px 20px 28px;
+ background-color: #fff;
+}
+.list__box {
+ padding: 28px 0 10px;
+ border-bottom: 1.5px solid #f0f0f6;
+ display: flex;
+ justify-content: space-between;
+ align-items: flex-start;
+}
+.list__box:last-child {
+ border: none;
+}
+.list__left {
+ max-width: 250px;
+}
+.list__right {
+ max-width: 500px;
+}
+.list__left--title,
+.list__right--title {
+ font-weight: 500;
+ font-size: 18px;
+ line-height: 123.6%;
+ margin-bottom: 15px;
+}
+.list__left--title {
+ margin-bottom: 5px;
+}
+.list__left--subtitle {
+ font-size: 15px;
+ line-height: 24px;
+}
+.list__left--subtitle span {
+ font-size: 10px;
+ line-height: 100.9%;
+ color: #fff;
+ padding: 4px 7px;
+ margin-left: 20px;
+ background-color: #ffb400;
+}
+.list__right--subtitle {
+ font-size: 15px;
+ line-height: 24px;
+ margin-right: 10px;
+ color: #767676;
+}
