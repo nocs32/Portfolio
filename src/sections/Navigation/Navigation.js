@@ -1,10 +1,11 @@
 import './navigation.css'
+import AnchorLink from 'react-anchor-link-smooth-scroll'
 
 function Navigation() {
   return (
     <div className='nav'>
       <nav className='nav__menu'>
-        <a className='nav__link' href='#'>
+        <AnchorLink className='nav__link' href='#intro'>
           <svg
             width='18'
             height='18'
@@ -17,8 +18,8 @@ function Navigation() {
               fill='#2B2B2B'
             />
           </svg>
-        </a>
-        <a className='nav__link' href='#'>
+        </AnchorLink>
+        <AnchorLink className='nav__link' href='#services' offset='30'>
           <svg
             width='18'
             height='18'
@@ -43,8 +44,8 @@ function Navigation() {
               </clipPath>
             </defs>
           </svg>
-        </a>
-        <a className='nav__link' href='#'>
+        </AnchorLink>
+        <AnchorLink className='nav__link' href='#education' offset='30'>
           <svg
             width='18'
             height='18'
@@ -59,8 +60,8 @@ function Navigation() {
               />
             </g>
           </svg>
-        </a>
-        <a className='nav__link' href='#'>
+        </AnchorLink>
+        <AnchorLink className='nav__link' href='#work' offset='30'>
           <svg
             width='18'
             height='18'
@@ -73,8 +74,8 @@ function Navigation() {
               fill='#2B2B2B'
             />
           </svg>
-        </a>
-        <a className='nav__link' href='#'>
+        </AnchorLink>
+        <AnchorLink className='nav__link' href='#contact' offset='30'>
           <svg
             width='18'
             height='18'
@@ -87,7 +88,7 @@ function Navigation() {
               fill='#2B2B2B'
             />
           </svg>
-        </a>
+        </AnchorLink>
       </nav>
     </div>
   )

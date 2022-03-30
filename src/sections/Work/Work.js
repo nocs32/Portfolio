@@ -2,7 +2,7 @@ import './work.css'
 
 function Work() {
   return (
-    <div className='education section'>
+    <div className='education section' id='work'>
       <h2 className='education__title'>Work History</h2>
       <p className='education__subtitle'>
         This is the list of my places of work and duties in the last few years.

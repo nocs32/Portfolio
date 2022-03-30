@@ -8,7 +8,7 @@ import optimization from '../../assets/optimization.svg'
 
 function Services() {
   return (
-    <div className='services section'>
+    <div className='services section' id='services'>
       <h2 className='services__title'>My Services</h2>
       <p className='services__subtitle'>
         This is a list of my most popular services. Please, take a look, you may

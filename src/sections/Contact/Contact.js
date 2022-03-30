@@ -3,10 +3,17 @@ import location from '../../assets/location.svg'
 import mail from '../../assets/mail.svg'
 import mobile from '../../assets/mobile.svg'
 import emailjs from '@emailjs/browser'
-import { useRef } from 'react'
+import { useRef, useState } from 'react'
 
 function Contact() {
+  const [name, setName] = useState(' ')
   const form = useRef()
+  const checkName = (e) => {
+    const target = e.target.value
+    if (target.length < 32) {
+      setName(target)
+    }
+  }
   const sendEmail = (e) => {
     e.preventDefault()
     emailjs
@@ -27,7 +34,7 @@ function Contact() {
     e.target.reset()
   }
   return (
-    <div className='contact section'>
+    <div className='contact section' id='contact'>
       <div className='contact__leftside'>
         <h3 className='contact__header'>Leave me your info</h3>
         <form className='contact__form' ref={form} onSubmit={sendEmail}>
@@ -35,7 +42,13 @@ function Contact() {
             Your Full Name
             <span> *</span>
           </label>
-          <input className='contact__form--input' type='text' name='name' />
+          <input
+            className='contact__form--input'
+            type='text'
+            name='name'
+            onChange={checkName}
+            value={name}
+          />
           <label className='contact__form--label' htmlFor='email'>
             Your Email
             <span> *</span>

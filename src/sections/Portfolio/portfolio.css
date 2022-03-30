@@ -39,11 +39,40 @@
  grid-gap: 20px;
  justify-content: center;
 }
-.gallery__box:hover {
- background-color: red;
- color: red;
+.gallery__box {
+ width: 280px;
+ height: 270px;
+ position: relative;
 }
 .gallery__box img {
- max-width: 280px;
- max-height: 280px;
+ position: absolute;
+ display: block;
+ top: 0;
+ right: 0;
+ bottom: 0;
+ left: 0;
+ width: 100%;
+ height: 100%;
+ z-index: 1;
+}
+.gallery__box--text {
+ position: relative;
+ z-index: 2;
+ width: 100%;
+ height: 100%;
+ display: flex;
+ align-items: center;
+ justify-content: center;
+ background-color: #ffb400f2;
+ opacity: 0;
+ transition: 0.25s all ease-in-out;
+}
+.gallery__box:hover .gallery__box--text {
+ opacity: 0.9;
+ transition: 0.25s all ease-in-out;
+}
+.gallery__box--title {
+ font-size: 30px;
+ text-transform: capitalize;
+ font-weight: 600;
 }

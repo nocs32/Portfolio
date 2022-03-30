@@ -4,7 +4,7 @@ import avatar from '../../assets/avatar-big.png'
 
 function Intro() {
   return (
-    <div className='intro section'>
+    <div className='intro section' id='intro'>
       <div className='intro__content'>
         <h1 className='intro__title'>
           I'm Tim Nox

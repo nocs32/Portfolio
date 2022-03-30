@@ -2,7 +2,7 @@ import './education.css'
 
 function Education() {
   return (
-    <div className='education section'>
+    <div className='education section' id='education'>
       <h2 className='education__title'>Education</h2>
       <p className='education__subtitle'>
         This is the list of my educational certificates / dimplomas.
