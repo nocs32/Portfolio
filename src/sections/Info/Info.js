@@ -7,7 +7,6 @@ import linkedin from '../../assets/linkedin.svg'
 import upwork from '../../assets/upwork.svg'
 import twitter from '../../assets/twitter.svg'
 import sqr from '../../assets/sqr.svg'
-import close from '../../assets/close.svg'
 import download from '../../assets/download.svg'
 import resume from '../../assets/Resume.pdf'
 
@@ -15,9 +14,6 @@ function Info() {
   return (
     <div className='info'>
       <div className='info__wrap'>
-        <button className='info__close--mobile'>
-          <img src={close} alt='' />
-        </button>
         <div className='info__avatar'>
           <img className='info__avatar--img' src={avatar} alt='' />
         </div>

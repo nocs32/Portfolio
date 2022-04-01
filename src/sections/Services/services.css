@@ -42,3 +42,20 @@
  font-size: 15px;
  color: #767676;
 }
+@media screen and (max-width: 1200px) {
+ .services__tiles {
+  justify-content: center;
+ }
+}
+@media screen and (max-width: 900px) {
+ .services__tiles {
+  grid-template-columns: repeat(2, 270px);
+  grid-gap: 15px;
+ }
+}
+@media screen and (max-width: 590px) {
+ .services__tiles {
+  grid-template-columns: repeat(1, 270px);
+  grid-gap: 10px;
+ }
+}

@@ -64,3 +64,30 @@
  margin-right: 10px;
  color: #767676;
 }
+@media screen and (max-width: 780px) {
+ .education__list {
+  padding: 10px 0 18px;
+ }
+ .list__box {
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+ }
+ .list__left,
+ .list__right {
+  max-width: 1000px;
+  width: 100%;
+  text-align: center;
+ }
+ .list__left--title,
+ .list__right--title {
+  text-align: center;
+  margin: 0 auto;
+ }
+ .list__left--subtitle {
+  margin-bottom: 15px;
+ }
+ .list__right {
+  margin: 0 auto;
+ }
+}

@@ -19,6 +19,7 @@
 }
 .gallery__nav {
  display: flex;
+ flex-wrap: wrap;
  align-items: center;
  justify-content: center;
  margin-bottom: 50px;
@@ -29,6 +30,7 @@
  font-size: 18px;
  line-height: 123.6%;
  text-transform: capitalize;
+ background-color: transparent;
 }
 .gallery__nav--btn:focus {
  color: #ffb400;
@@ -75,4 +77,14 @@
  font-size: 30px;
  text-transform: capitalize;
  font-weight: 600;
+}
+@media screen and (max-width: 900px) {
+ .gallery__items {
+  grid-template-columns: repeat(2, 280px);
+ }
+}
+@media screen and (max-width: 590px) {
+ .gallery__items {
+  grid-template-columns: repeat(1, 280px);
+ }
 }
