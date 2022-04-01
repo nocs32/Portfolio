@@ -90,4 +90,7 @@
  .list__right {
   margin: 0 auto;
  }
+ .list__left {
+  max-width: 700px;
+ }
 }
