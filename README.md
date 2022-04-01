@@ -1,4 +1,4 @@
-This is my personal portfolio website project with React!
+This is my personal portfolio website project created with React!
 
 # Getting Started with Create React App
 
