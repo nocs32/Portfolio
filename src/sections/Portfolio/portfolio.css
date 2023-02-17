@@ -78,6 +78,9 @@
  text-transform: capitalize;
  font-weight: 600;
 }
+.special {
+ background-size: contain;
+}
 @media screen and (max-width: 900px) {
  .gallery__items {
   grid-template-columns: repeat(2, 280px);

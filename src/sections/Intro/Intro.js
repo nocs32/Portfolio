@@ -7,7 +7,7 @@ function Intro() {
     <div className='intro section' id='intro'>
       <div className='intro__content'>
         <h1 className='intro__title'>
-          I'm Tim Nox
+          I'm Tymofii Tytenko
           <br />
           <span>Front-end </span>
           Developer
@@ -18,7 +18,7 @@ function Intro() {
         </p>
         <a
           className='intro__link'
-          href='https://www.upwork.com/freelancers/~011c89cd7b411fe028'
+          href='https://t.me/nocs32'
           target='_blank'
           rel='noreferrer'
         >

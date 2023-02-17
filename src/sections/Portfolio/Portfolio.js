@@ -4,6 +4,7 @@ import p2 from '../../assets/p2.jpg'
 import p3 from '../../assets/p3.jpg'
 import p4 from '../../assets/p4.jpg'
 import p5 from '../../assets/p5.jpg'
+import p6 from '../../assets/p6.jpg'
 import './portfolio.css'
 
 function Portfolio() {
@@ -11,7 +12,7 @@ function Portfolio() {
   const allItems = (
     <div className='gallery__items'>
       <a
-        href='https://nox.kainox.studio/'
+        href='https://nox-bc.netlify.app/'
         className='gallery__box'
         target='_blank'
         rel='noreferrer'
@@ -22,7 +23,7 @@ function Portfolio() {
         <img src={p1} alt='' />
       </a>
       <a
-        href='https://alivio.kainox.studio/'
+        href='https://nox-alivio.netlify.app/'
         className='gallery__box'
         target='_blank'
         rel='noreferrer'
@@ -33,29 +34,29 @@ function Portfolio() {
         <img src={p2} alt='' />
       </a>
       <a
-        href='https://skateboard.kainox.studio/'
+        href='https://nox-skateboard.netlify.app/'
         className='gallery__box'
         target='_blank'
         rel='noreferrer'
       >
         <div className='gallery__box--text'>
-          <h5 className='gallery__box--title'>Ecommerce Shop</h5>
+          <h5 className='gallery__box--title'>Skateboard Shop</h5>
         </div>
         <img src={p3} alt='' />
       </a>
       <a
-        href='https://portfolio.kainox.studio/'
+        href='https://nox-portfolio.netlify.app/'
         className='gallery__box'
         target='_blank'
         rel='noreferrer'
       >
         <div className='gallery__box--text'>
-          <h5 className='gallery__box--title'>Portfolio website</h5>
+          <h5 className='gallery__box--title'>Portfolio Website</h5>
         </div>
         <img src={p4} alt='' />
       </a>
       <a
-        href='https://kainox.netlify.app/'
+        href='https://kainox.netlify.app/en-en'
         className='gallery__box'
         target='_blank'
         rel='noreferrer'
@@ -65,12 +66,23 @@ function Portfolio() {
         </div>
         <img src={p5} alt='' />
       </a>
+      <a
+        href='https://techshop.kyiv.ua/'
+        className='gallery__box'
+        target='_blank'
+        rel='noreferrer'
+      >
+        <div className='gallery__box--text'>
+          <h5 className='gallery__box--title'>Electronics Shop</h5>
+        </div>
+        <img src={p6} className='special' alt='' />
+      </a>
     </div>
   )
   const landingItems = (
     <div className='gallery__items'>
       <a
-        href='https://nox.kainox.studio/'
+        href='https://nox-bc.netlify.app/'
         className='gallery__box'
         target='_blank'
         rel='noreferrer'
@@ -81,7 +93,7 @@ function Portfolio() {
         <img src={p1} alt='' />
       </a>
       <a
-        href='https://alivio.kainox.studio/'
+        href='https://nox-alivio.netlify.app/'
         className='gallery__box'
         target='_blank'
         rel='noreferrer'
@@ -92,18 +104,18 @@ function Portfolio() {
         <img src={p2} alt='' />
       </a>
       <a
-        href='https://portfolio.kainox.studio/'
+        href='https://nox-portfolio.netlify.app/'
         className='gallery__box'
         target='_blank'
         rel='noreferrer'
       >
         <div className='gallery__box--text'>
-          <h5 className='gallery__box--title'>Portfolio website</h5>
+          <h5 className='gallery__box--title'>Portfolio Website</h5>
         </div>
         <img src={p4} alt='' />
       </a>
       <a
-        href='https://kainox.netlify.app/'
+        href='https://kainox.netlify.app/en-en'
         className='gallery__box'
         target='_blank'
         rel='noreferrer'
@@ -118,7 +130,7 @@ function Portfolio() {
   const businessItems = (
     <div className='gallery__items'>
       <a
-        href='https://alivio.kainox.studio/'
+        href='https://nox-alivio.netlify.app/'
         className='gallery__box'
         target='_blank'
         rel='noreferrer'
@@ -129,13 +141,13 @@ function Portfolio() {
         <img src={p2} alt='' />
       </a>
       <a
-        href='https://skateboard.kainox.studio/'
+        href='https://nox-skateboard.netlify.app/'
         className='gallery__box'
         target='_blank'
         rel='noreferrer'
       >
         <div className='gallery__box--text'>
-          <h5 className='gallery__box--title'>Ecommerce Shop</h5>
+          <h5 className='gallery__box--title'>Skateboard Shop</h5>
         </div>
         <img src={p3} alt='' />
       </a>
@@ -149,19 +161,30 @@ function Portfolio() {
           <h5 className='gallery__box--title'>Business Landing</h5>
         </div>
         <img src={p5} alt='' />
+      </a>
+      <a
+        href='https://techshop.kyiv.ua/'
+        className='gallery__box'
+        target='_blank'
+        rel='noreferrer'
+      >
+        <div className='gallery__box--text'>
+          <h5 className='gallery__box--title'>Electronics Shop</h5>
+        </div>
+        <img src={p6} className='special' alt='' />
       </a>
     </div>
   )
   const commerceItems = (
     <div className='gallery__items'>
       <a
-        href='https://skateboard.kainox.studio/'
+        href='https://nox-skateboard.netlify.app/'
         className='gallery__box'
         target='_blank'
         rel='noreferrer'
       >
         <div className='gallery__box--text'>
-          <h5 className='gallery__box--title'>Ecommerce Shop</h5>
+          <h5 className='gallery__box--title'>Skateboard Shop</h5>
         </div>
         <img src={p3} alt='' />
       </a>
@@ -175,6 +198,17 @@ function Portfolio() {
           <h5 className='gallery__box--title'>Business Landing</h5>
         </div>
         <img src={p5} alt='' />
+      </a>
+      <a
+        href='https://techshop.kyiv.ua/'
+        className='gallery__box'
+        target='_blank'
+        rel='noreferrer'
+      >
+        <div className='gallery__box--text'>
+          <h5 className='gallery__box--title'>Electronics Shop</h5>
+        </div>
+        <img src={p6} className='special' alt='' />
       </a>
     </div>
   )

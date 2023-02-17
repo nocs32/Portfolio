@@ -49,7 +49,7 @@ function Work() {
             <h5 className='list__left--title'>VRP Consulting</h5>
             <div className='list__left--subtitle'>
               Salesforce Developer
-              <span>Jan 2022 - Now</span>
+              <span>Jan 2022 - Apr 2022</span>
             </div>
           </div>
           <div className='list__right'>
@@ -57,7 +57,8 @@ function Work() {
             <p className='list__right--subtitle'>
               Aside from my freelance job as a web developer, I'm working as a
               Junior Salesforce developer for one of the biggest international
-              companies.
+              companies. The company was closed a few months after the start of
+              the war.
             </p>
           </div>
         </div>

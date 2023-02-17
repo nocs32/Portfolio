@@ -84,10 +84,6 @@ function Contact() {
             <span className='contact__infobox--title'>City</span>
             <span className='contact__infobox--content'>Kyiv</span>
           </div>
-          <div className='contact__infobox'>
-            <span className='contact__infobox--title'>Street</span>
-            <span className='contact__infobox--content'>Khreschyatyk, 84</span>
-          </div>
         </div>
         <div className='contact__box'>
           <div className='contact__icon'>
@@ -95,9 +91,7 @@ function Contact() {
           </div>
           <div className='contact__infobox'>
             <span className='contact__infobox--title'>Email</span>
-            <span className='contact__infobox--content'>
-              web.kainox@gmail.com
-            </span>
+            <span className='contact__infobox--content'>timofey-t@ukr.net</span>
           </div>
           <div className='contact__infobox'>
             <span className='contact__infobox--title'>Skype</span>
@@ -107,7 +101,9 @@ function Contact() {
           </div>
           <div className='contact__infobox'>
             <span className='contact__infobox--title'>Telegram</span>
-            <span className='contact__infobox--content'>@nocs32</span>
+            <span className='contact__infobox--content'>
+              https://t.me/nocs32
+            </span>
           </div>
         </div>
         <div className='contact__box'>
@@ -115,12 +111,8 @@ function Contact() {
             <img src={mobile} alt='location' />
           </div>
           <div className='contact__infobox'>
-            <span className='contact__infobox--title'>Support Services</span>
-            <span className='contact__infobox--content'>+38(098)7727926</span>
-          </div>
-          <div className='contact__infobox'>
             <span className='contact__infobox--title'>Office</span>
-            <span className='contact__infobox--content'>+38(098)7727926</span>
+            <span className='contact__infobox--content'>+38(093)6084043</span>
           </div>
           <div className='contact__infobox'>
             <span className='contact__infobox--title'>Personal</span>

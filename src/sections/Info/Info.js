@@ -1,8 +1,6 @@
 import './info.css'
 import avatar from '../../assets/avatar-white-bg.png'
 import github from '../../assets/github.svg'
-import facebook from '../../assets/facebook.svg'
-import instagram from '../../assets/instagram.svg'
 import linkedin from '../../assets/linkedin.svg'
 import upwork from '../../assets/upwork.svg'
 import twitter from '../../assets/twitter.svg'
@@ -17,28 +15,12 @@ function Info() {
         <div className='info__avatar'>
           <img className='info__avatar--img' src={avatar} alt='' />
         </div>
-        <h4 className='info__title'>Tim Nox</h4>
+        <h4 className='info__title'>Tymofii Tytenko</h4>
         <h5 className='info__subtitle'>Front-end Developer</h5>
         <div className='info__social'>
           <a
             className='info__social--link'
-            href='https://www.facebook.com/TeamOFFey/'
-            target='_blank'
-            rel='noreferrer'
-          >
-            <img src={facebook} alt='facebook' />
-          </a>
-          <a
-            className='info__social--link'
-            href='https://www.instagram.com/nocs32/'
-            target='_blank'
-            rel='noreferrer'
-          >
-            <img src={instagram} alt='facebook' />
-          </a>
-          <a
-            className='info__social--link'
-            href='https://twitter.com/TimofiuN'
+            href='https://twitter.com/TimNocs'
             target='_blank'
             rel='noreferrer'
           >
@@ -46,7 +28,7 @@ function Info() {
           </a>
           <a
             className='info__social--link'
-            href='https://www.linkedin.com/in/%D1%82%D0%B8%D0%BC%D0%BE%D1%84%D0%B5%D0%B9-%D1%82%D0%B8%D1%82%D0%B5%D0%BD%D0%BA%D0%BE-5478a0215/'
+            href='https://www.linkedin.com/in/tymofii-tytenko-5478a0215/'
             target='_blank'
             rel='noreferrer'
           >
@@ -72,11 +54,7 @@ function Info() {
         <div className='info__bio'>
           <div className='bio__item'>
             <span className='bio__item--name'>Age</span>
-            <span className='bio__item--info'>22</span>
-          </div>
-          <div className='bio__item'>
-            <span className='bio__item--name'>Residense</span>
-            <span className='bio__item--info'>BD</span>
+            <span className='bio__item--info'>23</span>
           </div>
           <div className='bio__item'>
             <span className='bio__item--name'>Freelance</span>
@@ -140,15 +118,51 @@ function Info() {
           <div className='langs__item'>
             <div className='langs__item--info'>
               <span className='langs__item--span'>JavaScript</span>
-              <span className='langs__item--span'>90%</span>
+              <span className='langs__item--span'>80%</span>
             </div>
             <div className='langs__item--percents'>
-              <div className='langs__item--fill fill-90'></div>
+              <div className='langs__item--fill fill-80'></div>
             </div>
           </div>
           <div className='langs__item'>
             <div className='langs__item--info'>
               <span className='langs__item--span'>jQuery</span>
+              <span className='langs__item--span'>70%</span>
+            </div>
+            <div className='langs__item--percents'>
+              <div className='langs__item--fill fill-90'></div>
+            </div>
+          </div>
+          <div className='langs__item'>
+            <div className='langs__item--info'>
+              <span className='langs__item--span'>Wordpress</span>
+              <span className='langs__item--span'>50%</span>
+            </div>
+            <div className='langs__item--percents'>
+              <div className='langs__item--fill fill-50'></div>
+            </div>
+          </div>
+          <div className='langs__item'>
+            <div className='langs__item--info'>
+              <span className='langs__item--span'>ReactJS</span>
+              <span className='langs__item--span'>80%</span>
+            </div>
+            <div className='langs__item--percents'>
+              <div className='langs__item--fill fill-80'></div>
+            </div>
+          </div>
+          <div className='langs__item'>
+            <div className='langs__item--info'>
+              <span className='langs__item--span'>NodeJS</span>
+              <span className='langs__item--span'>45%</span>
+            </div>
+            <div className='langs__item--percents'>
+              <div className='langs__item--fill fill-45'></div>
+            </div>
+          </div>
+          <div className='langs__item'>
+            <div className='langs__item--info'>
+              <span className='langs__item--span'>Figma</span>
               <span className='langs__item--span'>90%</span>
             </div>
             <div className='langs__item--percents'>
@@ -157,20 +171,11 @@ function Info() {
           </div>
           <div className='langs__item'>
             <div className='langs__item--info'>
-              <span className='langs__item--span'>ReactJS</span>
-              <span className='langs__item--span'>75%</span>
+              <span className='langs__item--span'>GIT</span>
+              <span className='langs__item--span'>90%</span>
             </div>
             <div className='langs__item--percents'>
-              <div className='langs__item--fill fill-75'></div>
-            </div>
-          </div>
-          <div className='langs__item'>
-            <div className='langs__item--info'>
-              <span className='langs__item--span'>Figma</span>
-              <span className='langs__item--span'>95%</span>
-            </div>
-            <div className='langs__item--percents'>
-              <div className='langs__item--fill fill-95'></div>
+              <div className='langs__item--fill fill-90'></div>
             </div>
           </div>
         </div>
@@ -178,19 +183,19 @@ function Info() {
           <h4 className='langs__title'>Extra Skills</h4>
           <div className='langs__extra--item'>
             <img src={sqr} alt='' />
-            <span>Bootstrap, Materialize</span>
+            <span>Python 3</span>
           </div>
           <div className='langs__extra--item'>
             <img src={sqr} alt='' />
-            <span>Stylus, Sass, Less</span>
+            <span>Java, Python, C++/C#</span>
           </div>
           <div className='langs__extra--item'>
             <img src={sqr} alt='' />
-            <span>Gulp, Webpack, Grunt</span>
+            <span>Linux, macOS, Windows</span>
           </div>
           <div className='langs__extra--item'>
             <img src={sqr} alt='' />
-            <span>GIT Knowledge</span>
+            <span>Bash, Docker</span>
           </div>
         </div>
         <div className='info__download'>
