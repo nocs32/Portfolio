@@ -18,14 +18,17 @@ function Contact() {
     e.preventDefault()
     emailjs
       .sendForm(
-        `${process.env.REACT_APP_SERVICE_ID}`,
-        `${process.env.REACT_APP_TEMPLATE_ID}`,
+        `${'service_zlm995m'}`,
+        `${'template_074ofnm'}`,
         form.current,
-        `${process.env.REACT_APP_USER_ID}`
+        `${'5JiWkPPh4dQvKM8qd'}`
       )
       .then(
         (result) => {
           console.log(result.text)
+          alert(
+            'Thank you for your message! I will contact you as soon as I can.'
+          )
         },
         (error) => {
           console.log(error.text)
